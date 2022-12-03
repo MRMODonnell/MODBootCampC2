@@ -9,12 +9,16 @@ body {
 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: #e2e2e2ce
+  background-color: #e2e2e2ce;
+  padding:0px;
 }
 
 header h1 {font-size: 38px;
 color: white;
 margin-left: 30px;}
+
+
+
 h2,
 h3,
 h4,
@@ -32,6 +36,7 @@ p {
   grid-template-columns: 25% 75%;
   text-align: center;
   text-decoration:solid;
+  background-color: rgba(128, 128, 128, 0.582);
   
 }
 
@@ -70,6 +75,45 @@ p {
 h2{font-size: 48px;
 color: #003b51be}
 
-.AboutMe{height: 100px;
+.AboutMe{height: 190px;
 position: static;}
 
+
+#challange1{
+  background: url(/images/02-portfolio-3.jpg);
+  
+}
+#challange2{
+  background: url(/images/02-portfolio-3.jpg);
+}
+#challange3{
+  background: url(/images/02-portfolio-3.jpg);
+}
+h3{color: white;
+size: px;}
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+grid-template-rows: 600px 600px 600px;
+  grid-template-columns: 1fr 1fr ;
+  row-gap: 20px;
+  grid-gap: 20px;
+  grid-template-areas:
+  
+  "";
+
+
+}
+
+  #categoryGridarea{
+    padding: 10px;
+    border: 10px
+  ;
+  
+  }
+  h3{
+    margin-top: 
+  400px
+  }
+  p{background: rgb(0,0,0,0.7)}
